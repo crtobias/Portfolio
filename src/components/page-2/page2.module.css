@@ -1,0 +1,70 @@
+@media only screen and (max-width: 600px) {
+    .container{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid red;
+        min-height: 100vh;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .introduce{
+        font-family:  cursiva;
+        font-size: 3.5rem;
+        margin: 0px;
+        position: absolute;
+        margin-bottom: 6.5rem;
+        color: #B50B3F;
+    }
+    .about{
+        font-family: negrita;
+        font-size: 4rem;
+        margin: 0px;
+    }
+    .container3{
+        
+    }
+    .foto{
+        min-height: 300px;
+        min-width: 300px;
+        background-color: #B50B3F;
+        border: 5px solid black;
+        border-radius: 15px;
+    }
+    .containerlog{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: -4px;
+    }
+    .log{
+        text-align: center;
+        height: 38px;
+        width: 40px;
+        border: 5px solid black;
+        border-radius: 0px 0px 15px 15px;
+        overflow: hidden;
+        background-color: #105652;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        width: 80%;
+    }
+    .cv{
+        font-family: negrita;
+        font-size: 1.9rem;
+        margin-top: -5px;
+    }
+    .lore{
+        margin: 1.2rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}

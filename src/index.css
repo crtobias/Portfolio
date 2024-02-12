@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'negrita'; /* Nombre de la fuente */
+  src: url('./assets/negrita.ttf') format('truetype'); /* Ruta a la fuente TTF */
+  /* Puedes agregar estilos adicionales como weight y style si es necesario */
+}
+@font-face {
+  font-family: 'cursiva'; /* Nombre de la fuente */
+  src: url('./assets/cursiva.ttf') format('truetype'); /* Ruta a la fuente TTF */
+  /* Puedes agregar estilos adicionales como weight y style si es necesario */
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -33,6 +44,8 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  padding: 0px;
+  margin: 0px;
 }
 
 button {
